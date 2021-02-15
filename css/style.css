@@ -790,6 +790,11 @@ input[type="radio"].visually-hidden {
   height: 11px;
 }
 
+.modal-close-button:hover .close-icon,
+.modal-close-button:focus .close-icon {
+  fill: var(--accent-color);
+}
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -937,6 +942,7 @@ input[type="radio"].visually-hidden {
   background-size: cover;
   background-origin: border-box;
   border-color: transparent;
+  background-color: var(--accent-color);
 }
 
 .checkbox:focus + .policy::before {
